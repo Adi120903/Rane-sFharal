@@ -1,0 +1,22 @@
+form{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    gap: 2rem 2rem;
+    
+    margin: 1rem;
+}
+
+.form-elemnt {
+    width:auto;
+}
+.form-elemnt .inputs{
+    width:16rem;
+}
+.form-elemnt .blocks{
+    display: block;
+}
+#createbtn{
+    margin-top: 1rem;
+}
+

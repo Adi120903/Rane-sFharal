@@ -1,0 +1,29 @@
+form{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    gap: 2rem 1rem;
+    
+    margin: 1rem;
+}
+#dynamicFieldsContainer{
+    grid-column-start: 1;
+    grid-column-end : 4;
+}
+
+.form-elemnt {
+    width:auto;
+}
+.form-elemnt .inputs{
+    width:16rem;
+}
+.form-elemnt .blocks{
+    display: block;
+}
+#createbtn{
+    margin-top: 1rem;
+}
+
+#addFields{
+    margin-top: 1rem;
+}
